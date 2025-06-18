@@ -1,0 +1,4 @@
+Added Component: Designator=HL?(0805D)
+Add component (AddParameter): Name = "Color"; Value = "{Цвет}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LED"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Octo Member=Component HL? LED

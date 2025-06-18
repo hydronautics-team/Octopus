@@ -1,0 +1,22 @@
+Added Component: Designator=XP?(PLS2)
+Add component (AddParameter): Name = "Part Number"; Value = "PLS-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value1"; Value = "{Value1}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value2"; Value = "{Value2}"; VariantName = "[No Variations]"
+Added Component: Designator=XP?(PLS3)
+Add component (AddParameter): Name = "Datasheet"; Value = "https://static.chipdip.ru/lib/177/DOC040177951.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "PLS-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value1"; Value = "{Value1}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value2"; Value = "{Value2}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value3"; Value = "{Value3}"; VariantName = "[No Variations]"
+Added Component: Designator=XP?(PLS4)
+Add component (AddParameter): Name = "Part Number"; Value = "PLS-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value1"; Value = "{Value1}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value2"; Value = "{Value2}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value3"; Value = "{Value3}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value4"; Value = "{Value4}"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Octo Member=Component XP? PLS-2
+Added Member To Class: ClassName=Octo Member=Component XP? PLS-3
+Added Member To Class: ClassName=Octo Member=Component XP? PLS-4

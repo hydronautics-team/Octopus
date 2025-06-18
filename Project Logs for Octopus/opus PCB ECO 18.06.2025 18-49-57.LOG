@@ -1,0 +1,10 @@
+Change Physical Footprint: Designator=GB1 Old Footprint=CR2032-VAY3-15.2 New Footprint=CR2032-VAY3-15.2
+Change Physical Footprint: Designator=HL1 Old Footprint=3mm_led_red New Footprint=3mm_led_red
+Change Physical Footprint: Designator=HL2 Old Footprint=3mm_led_red New Footprint=3mm_led_red
+Change Physical Footprint: Designator=HL3 Old Footprint=3mm_led_red New Footprint=3mm_led_red
+Change Physical Footprint: Designator=R1 Old Footprint=0603R New Footprint=0603R
+Change Physical Footprint: Designator=R2 Old Footprint=0603R New Footprint=0603R
+Change Physical Footprint: Designator=R3 Old Footprint=0603R New Footprint=0603R
+Change Physical Footprint: Designator=S1 Old Footprint=Button_tht_6X6 New Footprint=Button_tht_6X6
+Change Physical Footprint: Designator=S2 Old Footprint=Button_tht_6X6 New Footprint=Button_tht_6X6
+Change Physical Footprint: Designator=XP1 Old Footprint=PLS2 New Footprint=PLS2

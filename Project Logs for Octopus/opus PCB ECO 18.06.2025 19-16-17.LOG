@@ -1,0 +1,8 @@
+Change Component Designator: OldDesignator=HL1 NewDesignator=HL3
+Change Component Designator: OldDesignator=HL2 NewDesignator=HL1
+Change Component Designator: OldDesignator=HL3 NewDesignator=HL2
+Change Net Name : Old Net Name=NetHL1_1 New Net Name=NetHL3_1
+Change Net Name : Old Net Name=NetHL2_1 New Net Name=NetHL1_1
+Change Net Name : Old Net Name=NetHL3_1 New Net Name=NetHL2_1
+Added Member To Class: ClassName=Octo Member=Component R1 Resistor
+Added Member To Class: ClassName=Octo Member=Component R3 Resistor

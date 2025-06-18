@@ -80,7 +80,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -90,6 +90,74 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HUQGMSQC
 
+[Document3]
+DocumentPath=opus.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LOVCOFNC
+
+[Document4]
+DocumentPath=opus_ass.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZYWAMMPB
+
+[Document5]
+DocumentPath=opus_fabr.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZUSRBZRP
+
+[Document6]
+DocumentPath=Octopus.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueId=951a6c06-cfbe-43b2-a0f9-02a6a7bce763
 Description=01
@@ -98,17 +166,21 @@ ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Octopus\Design Rule Check - opus.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Version
-Value=01
+Value=02
 
 [Parameter2]
 Name=Title
-Value=Преобразователь из 15В в 300В
+Value=Брелок осьминожка
 
 [Parameter3]
 Name=Release_Date
-Value=31.05.25
+Value=18.06.25
 
 [Parameter4]
 Name=DrawnBy
@@ -157,7 +229,7 @@ DocumentReferenceClass1=DocumentReference
 OutputJobFileName1=HydroJob.OutJob
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
-LocalReleaseTarget=ГИДР.123456.001-01.01
+LocalReleaseTarget=ГИДР.123456.006-02.01
 
 [Configuration4]
 Name=Assembly
@@ -1090,10 +1162,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Hydrolib.DbLib/Resistors$
+ComponentDesignItemID0=Resistor_220_1_0603
+ComponentSymbolReference0=Resistor
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1107,6 +1185,39 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Case
+ParameterUpdate0=1
+ParameterName1=Comment
+ParameterUpdate1=1
+ParameterName2=Component Kind
+ParameterUpdate2=1
+ParameterName3=Datasheet
+ParameterUpdate3=1
+ParameterName4=Description
+ParameterUpdate4=1
+ParameterName5=Library Reference
+ParameterUpdate5=1
+ParameterName6=Manufactore
+ParameterUpdate6=1
+ParameterName7=Notice
+ParameterUpdate7=1
+ParameterName8=Part Number
+ParameterUpdate8=1
+ParameterName9=Power
+ParameterUpdate9=1
+ParameterName10=Rate
+ParameterUpdate10=1
+ParameterName11=Shop
+ParameterUpdate11=1
+ParameterName12=Tolerance
+ParameterUpdate12=1
+ParameterName13=Value
+ParameterUpdate13=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=0603R
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

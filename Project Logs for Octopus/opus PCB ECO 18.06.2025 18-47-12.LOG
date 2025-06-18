@@ -1,0 +1,88 @@
+Removed Member From Class: ClassName=Octo Member=XP?
+Change Component Designator: OldDesignator=GB? NewDesignator=GB1
+Change Component Designator: OldDesignator=HL? NewDesignator=HL2
+Change Component Designator: OldDesignator=S? NewDesignator=S1
+Added Component: Designator=HL1(3mm_led_red)
+Add component (AddParameter): Name = "Color"; Value = "{Цвет}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LED"; VariantName = "[No Variations]"
+Added Component: Designator=HL3(3mm_led_red)
+Add component (AddParameter): Name = "Color"; Value = "{Цвет}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LED"; VariantName = "[No Variations]"
+Added Component: Designator=R1(0603R)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "Resistor_220_1_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "220"; VariantName = "[No Variations]"
+Added Component: Designator=R2(0603R)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "Resistor_220_1_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "220"; VariantName = "[No Variations]"
+Added Component: Designator=R3(0603R)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufactore"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notice"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "Resistor_220_1_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shop"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "220"; VariantName = "[No Variations]"
+Added Component: Designator=S2(Button_tht_6X6)
+Add component (AddParameter): Name = "Part Number"; Value = "Tact_button"; VariantName = "[No Variations]"
+Added Component: Designator=XP1(PLS2)
+Add component (AddParameter): Name = "Part Number"; Value = "PLS-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "System"; Value = "Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value1"; Value = "{Value1}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value2"; Value = "{Value2}"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V Pin=S1-1
+Added Pin To Net: NetName=3V Pin=S2-1
+Added Pin To Net: NetName=3V Pin=S2-1
+Added Net: Name=3V
+Added Pin To Net: NetName=GND Pin=GB1-N
+Added Pin To Net: NetName=GND Pin=HL1-2
+Added Pin To Net: NetName=GND Pin=HL2-2
+Added Pin To Net: NetName=GND Pin=HL3-2
+Added Pin To Net: NetName=GND Pin=XP1-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetHL1_1 Pin=HL1-1
+Added Pin To Net: NetName=NetHL1_1 Pin=R1-2
+Added Net: Name=NetHL1_1
+Added Pin To Net: NetName=NetHL2_1 Pin=HL2-1
+Added Pin To Net: NetName=NetHL2_1 Pin=R2-2
+Added Net: Name=NetHL2_1
+Added Pin To Net: NetName=NetHL3_1 Pin=HL3-1
+Added Pin To Net: NetName=NetHL3_1 Pin=R3-2
+Added Net: Name=NetHL3_1
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=XP1-1
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=S1-2
+Added Net: Name=NetR2_1
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_1 Pin=S2-2
+Added Pin To Net: NetName=NetR3_1 Pin=S2-2
+Added Net: Name=NetR3_1
+Added Member To Class: ClassName=Octo Member=Component HL1 LED
+Added Member To Class: ClassName=Octo Member=Component HL3 LED
+Added Member To Class: ClassName=Octo Member=Component R1 Resistor
+Added Member To Class: ClassName=Octo Member=Component R2 Resistor
+Added Member To Class: ClassName=Octo Member=Component R3 Resistor
+Added Member To Class: ClassName=Octo Member=Component S2 Tact_button
+Added Member To Class: ClassName=Octo Member=Component XP1 PLS-2
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
