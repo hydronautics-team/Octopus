@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Public\Documents\Altium\Octopus\opus.PcbDoc
 Date     : 19.06.2025
-Time     : 15:16:21
+Time     : 16:13:52
 
 Processing Rule : Clearance Constraint (Gap=0.25mm) (All),(All)
 Rule Violations :0
@@ -30,8 +30,13 @@ Rule Violations :0
 Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
-Rule Violations :0
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.036mm < 0.1mm) Between Pad GB1-P(8.475mm,-1.475mm) on Multi-Layer And Text "vk.com/hydronautics" (-10.796mm,-1.663mm) on Top Solder [Top Solder] Mask Sliver [0.036mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.001mm < 0.1mm) Between Region (0 hole(s)) Top Solder And Region (14 hole(s)) Top Solder [Top Solder] Mask Sliver [0.001mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.001mm < 0.1mm) Between Region (0 hole(s)) Top Solder And Region (14 hole(s)) Top Solder [Top Solder] Mask Sliver [0.001mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.052mm < 0.1mm) Between Region (0 hole(s)) Top Solder And Region (2 hole(s)) Top Solder [Top Solder] Mask Sliver [0.052mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.0993mm (3.9101mil) < 0.1mm (3.937mil)) Between Region (0 hole(s)) Top Solder And Region (2 hole(s)) Top Solder [Top Solder] Mask Sliver [0.099mm]
+Rule Violations :5
 
 Processing Rule : Silk To Solder Mask (Clearance=0.15mm) (IsPad),(All)
    Violation between Silk To Solder Mask Clearance Constraint: (0.1497mm (5.8927mil) < 0.15mm (5.9055mil)) Between Pad HL3-2(6.045mm,-21.599mm) on Multi-Layer And Region (6 hole(s)) Top Overlay [Top Overlay] to [Top Solder] clearance [0.15mm]
@@ -54,6 +59,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 8
+Violations Detected : 13
 Waived Violations : 0
 Time Elapsed        : 00:00:01
