@@ -2,17 +2,13 @@
 FileName = opus.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Overlay
-      File : opus.GTO
+Generating : Mechanical 4
+      File : opus.GM4
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Mechanical 4
 
 
 Used DCodes :
-    D10
-    D11
-    D12
-    D13
 *************************************************************
 
 *************************************************************
@@ -23,54 +19,7 @@ Generating : Keep-Out Layer
 
 
 Used DCodes :
-    D28
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : opus.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : opus.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 4
-      File : opus.GM4
-
-    Adding Layer      : Mechanical 4
-
-
-Used DCodes :
-    D28
+    D29
 *************************************************************
 
 *************************************************************
@@ -88,35 +37,17 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : opus.GBO
+Generating : Top Paste
+      File : opus.GTP
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Top Paste
 
-
-Used DCodes :
-    D10
-    D12
-    D28
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : opus.GBL
-
-    Adding Layer      : Bottom Layer
+    Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D18
-    D19
-    D23
-    D24
-    D25
-    D26
-    D27
 *************************************************************
 
 *************************************************************
@@ -131,7 +62,6 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D14
     D15
     D16
     D17
@@ -139,6 +69,76 @@ Used DCodes :
     D19
     D20
     D21
+    D22
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : opus.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : opus.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D11
+    D14
+    D29
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : opus.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : opus.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D20
+    D24
+    D25
+    D26
+    D27
+    D28
 *************************************************************
 
 *************************************************************
@@ -151,13 +151,13 @@ Generating : Top Layer
 
 
 Used DCodes :
-    D18
     D19
-    D22
+    D20
     D23
     D24
     D25
     D26
     D27
+    D28
 *************************************************************
 
